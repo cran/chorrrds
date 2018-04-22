@@ -6,8 +6,10 @@
 #' @return If the artist (or band) is found, it is returned a database
 #' with the song names and URLs.
 #' @examples{
+#' \donttest{
 #'   get_songs("jorge")
 #'   get_songs("los-hermanos")
+#'}
 #'}
 #' @export
 

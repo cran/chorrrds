@@ -13,18 +13,6 @@
 #'}
 NULL
 
-#' .
-#'
-#' See \code{\link[plyr]{.}} for more details.
-#'
-#' @name .
-#' @rdname pipe
-#' @keywords internal
-#' @export
-#' @importFrom plyr .
-#'
-NULL
-
 #  Negates match operator
 #'
 #' This function negates the macth operator.

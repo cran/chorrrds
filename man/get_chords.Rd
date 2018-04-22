@@ -21,7 +21,9 @@ Get songs names from an artist.
 }
 \examples{
 {
+\donttest{
   songs <- chorrrds::get_songs("tim-maia")
   get_chords(songs$url[4])
+}
 }
 }
