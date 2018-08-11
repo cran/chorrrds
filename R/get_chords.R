@@ -1,6 +1,6 @@
-#' get_songs
+#' get_chords
 #'
-#' Get songs names from an artist.
+#' Get chords from an artist.
 #'
 #' @param songs character. The song url.
 #' @param nf TRUE of FALSE. If the chords of a song are not found,
@@ -15,6 +15,7 @@
 #'}
 #'}
 #' @export
+
 
 get_chords <- function(songs, nf = FALSE){
   mm <- list()
@@ -49,7 +50,7 @@ get_chords <- function(songs, nf = FALSE){
       }
     } )
 
-  base <- plyr::ldply(mm, data.frame)
+  base <- mm %>% purrr::map_dfr(data.frame)
   base$music <- base$music %>%
     stringr::str_replace_all("-", " ") %>%
     stringr::str_replace_all("/", " ") %>%

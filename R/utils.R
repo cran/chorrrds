@@ -15,7 +15,7 @@ NULL
 
 #  Negates match operator
 #'
-#' This function negates the macth operator.
+#' This function negates the match operator.
 #'
 #' @name not_in
 #' @keywords internal
@@ -28,4 +28,6 @@ NULL
 
 not_in <- function(x,y)!('%in%'(x,y))
 
+# Get rid of NOTEs
+globalVariables(c(".", "name", "data"))
 
