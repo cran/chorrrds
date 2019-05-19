@@ -1,10 +1,10 @@
-3b7a9ecec024f331f723ee698aa4e3ec *DESCRIPTION
+721fea79034b4d1f09921863e08fe25d *DESCRIPTION
 61adb995977534e2030a0a89ece35cd2 *LICENSE
 7aca50ee430b1c24cc5703a80cb5d436 *NAMESPACE
 b17a0f1c45f41342e978a34700b80220 *R/chords_bigram.R
 538b1e62c8261bd14cc90dbef630218d *R/clean.R
 e3d99606bf75108e88f71a9c14e9b163 *R/data.R
-d548a4ecf98d85aec264b4b04fdadab9 *R/feature_extraction.R
+4cf62de82d7e0bff56c1c9ef8c713461 *R/feature_extraction.R
 9e0a825273965bcfd53f5a7887cac94d *R/get_chords.R
 3630eab353588f38b2b1e637ccacc292 *R/get_songs.R
 5b85aa0e4a3d12ee7fc0741982edb7b2 *R/search_data.R
