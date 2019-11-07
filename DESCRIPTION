@@ -1,7 +1,7 @@
 Package: chorrrds
 Title: Music Chords Extraction
 Type: Package
-Version: 0.1.9.1
+Version: 0.1.9.2
 Author: Bruna Wundervald
 Maintainer: Bruna Wundervald <brunadaviesw@gmail.com>
 Description: Extracts music chords from the 'CifraClub' website <https://www.cifraclub.com.br/>.
@@ -17,6 +17,6 @@ LazyData: true
 RoxygenNote: 6.1.1
 Imports: stringr, dplyr, XML, magrittr, purrr, zoo, forcats
 NeedsCompilation: no
-Packaged: 2019-05-19 12:42:55 UTC; brunawundervald
+Packaged: 2019-11-07 16:37:13 UTC; brunawundervald
 Repository: CRAN
-Date/Publication: 2019-05-19 13:00:03 UTC
+Date/Publication: 2019-11-07 16:50:07 UTC
