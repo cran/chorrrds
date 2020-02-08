@@ -29,6 +29,5 @@ NULL
 not_in <- function(x,y)!('%in%'(x,y))
 
 # Get rid of NOTES
-globalVariables(c(".", "name", "data", "long_str", "chord", 
-                  "chord_bigram", "song", "songs"))
+globalVariables(c(".", ".data"))
 
