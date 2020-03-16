@@ -1,7 +1,7 @@
 Package: chorrrds
 Title: Music Chords Extraction
 Type: Package
-Version: 0.1.9.3
+Version: 0.1.9.4
 Authors@R: 
     c(
       person(given = "Bruna", family = "Wundervald", email = "brunadaviesw@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-8163-220X")),
@@ -20,9 +20,9 @@ LazyData: true
 RoxygenNote: 7.0.0
 Imports: stringr, dplyr, xml2, rvest, magrittr, purrr, forcats
 NeedsCompilation: no
-Packaged: 2020-02-08 14:04:46 UTC; brunawundervald
+Packaged: 2020-03-16 12:24:43 UTC; brunawundervald
 Author: Bruna Wundervald [aut, cre] (<https://orcid.org/0000-0001-8163-220X>),
   Matthew Leonawicz [ctb] (<https://orcid.org/0000-0001-9452-2771>)
 Maintainer: Bruna Wundervald <brunadaviesw@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-02-08 14:20:05 UTC
+Date/Publication: 2020-03-16 12:50:07 UTC
