@@ -4,7 +4,7 @@
 \alias{\%>\%}
 \title{Pipe operator}
 \description{
-See \code{\link[magrittr]{\%>\%}} for more details.
+Pipe operator
 }
 \examples{
 {
